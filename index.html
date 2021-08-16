@@ -1,54 +1,152 @@
-<!DOCTYPE html>
-<html lang="en">
+<html><head>
+	<title>Photo Gallery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Hobby</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"> </script>
-    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
 
 </head>
 
-<body>
-    <ul class="menu">
-        <li class="links"><a href="#welcome">ABOUT</a></li>
-        <li class="links"><a href="#videos">MY FAVOURITE STORYBOOKS</a></li>
-        <li class="links"><a href="#work">MY INSPIRATIONS</a></li>
-        <li class="links"><a href="#writings">MY WRITING</a></li>
-        <li class="links"><a href="#contacts">CONTACTS</a></li>
+	<body>
+        <br>
+        <br>
+    <h1>This is a photo gallerey of lots of beautiful flowers</h1>
 
+
+    <center>   
+    <ul class="menu1">
+        
+      <li class="links"><a href="#home">HOME</a></li>
+      <li class="links"><a href="#Grids">Grid View</a></li>
+      <li class="links"><a href="#Slides">Slide View</a></li>
+
+        
+		    
     </ul>
-    <section id="welcome">
-        <div class="parallax-inner"> </div>
+</center>
 
 
-        <img src="352552209016201.webp" />
 
-        <h1> My Favourite <br> <span id="name">
-                HOBBY
-            </span>
-        </h1>
-        <h2>
-            Writing Books
+<div class="container">
+    <section id="home">
+    <div class="page-header">
+  		<h2 class="text-capitalize"></h2>
+        <img id="img1" src="flowers.gif" class="img-responsive">
+    </div>
+          </section>
+       
+   <hr style="width: 100%;">
+     <section id="Grids">
+        <h2> Grid gallery</h2>   
+          <br>
+         <script src=""></script>
+          <div class="row">
+              <img class="img2" src="Orange.png">
+              <img class="img2" src="Pink tulip.jpg">
+              <img class="img2" src="purple.jpg">
+              <br><br>	
+            </div>
+          <div class="row">
+            <img class="img2" src="Red rose.jpg">
+            <img class="img2" src="violet.jpg">
+            <img class="img2" src="White.jpg">
+            <img class="img2" src="yellow.jpg">
+             </div>
+             
+ </section>
+   
+    <br>
+    <br>
+     <hr style="width: 100%;">
 
-        </h2>
-    </section>
-
-
-    <section id="bio">
-        <h1> Hi!
-        </h1>
-        <div class="line"> </div>
-        <p>
-            Most children these days are addicted to their mobiles or computers-playing games, watching videos, etc. I, however, have taken the advantage of this lockdown to read as many books as I can. But, that’s not all. I have also started writing my own stories! I wrote my first story in June 2020, and since then, I couldn't stop. I wrote about adventures of two best friends, ups and downs in life and a lot more. Writing books helps me to let my imagination flow out into one page in the form of a story which everyone can enjoy. I like to write about magic, mystery, fantasy, and adventures.
-        </p>
-
-  
-    </section>
-    </body>
-</html>
-
+    <section id="Slides">
+       <h2>Sliding gallery</h2>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+   
     
+    <div class="carousel-inner">
+
+      <div class="item">
+        <img class="img-responsive" src="blue.jpg" alt="Blue" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Blue Flower</h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item active">
+        <img class="img-responsive" src="Orange.png" alt="Orange" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Orange Flower</h3>
+          <p></p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img class="img-responsive" src="Pink tulip.jpg" alt="Pink" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Pink Tulip</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="purple.jpg" alt="Purple" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Purple Flower</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="Red rose.jpg" alt="Red" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Red Rose</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="violet.jpg" alt="Violet" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Violet Flower</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="White.jpg" alt="White" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>White Flower</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="yellow.jpg" alt="Yellow" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Yellow Flower</h3>
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+   
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class=""></span>
+       
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+    </section>
+        </div>
+
+
+
+</body></html>
